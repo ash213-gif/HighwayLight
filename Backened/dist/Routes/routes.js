@@ -8,5 +8,8 @@ const router = express_1.default.Router();
 const user_1 = require("../Controller/user");
 router.post('/createUser', user_1.createUser);
 router.post('/login', user_1.login);
+router.get('/', (req, res) => {
+    res.json('thish hdiuhdi db my route ashis pancjal');
+});
 exports.default = router;
 //# sourceMappingURL=routes.js.map
